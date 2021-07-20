@@ -45,7 +45,7 @@ jQuery(function($){
 			arrows: true,
 			infinite: true,
 			slidesToScroll:1,
-			centerMode:true,
+			centerMode:false,
 			slidesToShow:5,
 			responsive: [
 				{
@@ -57,7 +57,7 @@ jQuery(function($){
 				{
 					breakpoint: 771,
 					settings: {
-						slidesToShow: 1,
+						slidesToShow: 2,
 					}
 				}
 			]
