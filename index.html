@@ -451,9 +451,20 @@
 
         .slider_cont_135 .slick-prev {
             background: transparent !important;
+            opacity: 1 !important;
+            left: -24px !important;
         }
         .slider_cont_135 .slick-next {
             background: transparent !important;
+            opacity: 1 !important;
+            right: -10px !important;
+        }
+        .slider_cont_135 .slick-prev:before {
+            font-size: 27px !important;
+        }
+
+        .slider_cont_135 .slick-next:before {
+            font-size: 27px !important;
         }
 
         .slick-prev:before, .slick-next:before {
@@ -462,21 +473,23 @@
 
         @media only screen and (max-width: 770px){
             .slider_cont_135 .slick-prev:before {
-                font-size: 30px !important;
+                font-size: 27px !important;
                 opacity: 1 !important;
                 position: absolute !important;
-                left: -25px;
-                top: 40%;
+                left: 0;
+                width: 100%;
+                transform: translate(0%, -50%);
             }
         }
 
         @media only screen and (max-width: 770px){
             .slider_cont_135 .slick-next:before {
-                font-size: 30px !important;
+                font-size: 27px !important;
                 opacity: 1 !important;
                 position: absolute !important;
-                right: -22px;
-                top: 40%;
+                right: 0;
+                width: 100%;
+                transform: translate(0%, -50%);
             }
         }
         
@@ -528,11 +541,12 @@
                         <div class="t50_r0 width_65" style="top: 45% !important">
                             <div class="wrapper_90">
                                 <img class="fix_zoom undrag" src="img/sect_1/title.png" style="margin-top: 1vw !important;">
-                                <div class="bg_white txt_tpad_1 txt_bpad_1 width_100" style="margin-top: -1vw;">
+                                <div class="bg_white txt_tpad_05 txt_bpad_05 width_100" style="margin-top: -1vw;">
                                     <div class="space_05"></div>
-                                        <ul class="slider slider_cont_113">
+                                        <ul class="slider slider_cont_135 wrapper_90">
                                             <li><img class="fix_zoom undrag" src="img/sect_1/img_1.png" alt=""></li>
                                             <li><img class="fix_zoom undrag" src="img/sect_1/img_2.png" alt=""></li>
+                                            <li><img class="fix_zoom undrag" src="img/sect_1/img_3.png" alt=""></li>
                                             <li><img class="fix_zoom undrag" src="img/sect_1/img_3.png" alt=""></li>
                                         </ul>
                                     <div class="space_05"></div>
@@ -552,9 +566,9 @@
                     <div class="space_5"></div>
                     <div class="wrapper_85">
                         <ul class="slider slider_cont_135 wrapper_100">
-                            <li><img src="img/sect_1/img_1.png" alt=""></li>
-                            <li><img src="img/sect_1/img_2.png" alt=""></li>
-                            <li><img src="img/sect_1/img_3.png" alt=""></li>
+                            <li><img class="fix_zoom undrag" src="img/sect_1/img_1.png" alt=""></li>
+                            <li><img class="fix_zoom undrag" src="img/sect_1/img_2.png" alt=""></li>
+                            <li><img class="fix_zoom undrag" src="img/sect_1/img_3.png" alt=""></li>
                         </ul>
                     </div>
             </div>

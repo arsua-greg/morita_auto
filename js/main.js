@@ -46,7 +46,7 @@ jQuery(function($){
 			infinite: true,
 			slidesToScroll:1,
 			centerMode:false,
-			slidesToShow:5,
+			slidesToShow:3,
 			responsive: [
 				{
 					breakpoint: 1051,
