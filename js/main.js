@@ -49,7 +49,7 @@ jQuery(function($){
 			slidesToShow:3,
 			responsive: [
 				{
-					breakpoint: 1051,
+					breakpoint: 1050,
 					settings: {
 						slidesToShow: 3,
 					}
@@ -58,6 +58,7 @@ jQuery(function($){
 					breakpoint: 771,
 					settings: {
 						slidesToShow: 2,
+						centerMode: false,
 					}
 				}
 			]
